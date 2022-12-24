@@ -1,10 +1,12 @@
 ---
-title: "Sample Page"
-date: 2021-01-01
-categories: ["hugo"]
-tags: ["go", "markdown"]
+title: "テストページ"
+date: 2022-12-24
+categories: ["daily"]
+tags: ["daily"]
 menu: main
 ---
+
+HUGOの使い方
 
 # HUGOのサンプル
 
