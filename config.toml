@@ -6,15 +6,6 @@ DefaultContentLanguage = "ja"
 HasCJKLanguage = true
 enableRobotsTXT = true
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BX9NK5GMHV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-BX9NK5GMHV');
-</script>
-
 # ブログのタイトル
 title = "立花真由美の技術メモ"
 
