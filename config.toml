@@ -1,5 +1,5 @@
 # 公開するページのURL
-baseURL = "https://kat0h.github.io/hugo-blog-template"
+baseURL = "https://tachibana-mayumi.github.io/tachibana-mayumi-blog"
 
 languageCode = "ja"
 DefaultContentLanguage = "ja"
@@ -7,15 +7,15 @@ HasCJKLanguage = true
 enableRobotsTXT = true
 
 # ブログのタイトル
-title = "hugo-blog-template"
+title = "立花真由美の技術メモ"
 
 theme = "mainroad"
 paginate = 20
 
 # 自己紹介
 [Author]
-    name = "Author"
-    bio = "ここに自己紹介を入れることができます"
+    name = "立花真由美"
+    bio = "デザイナーから技術系に仕事が変わってしまったOLの奮闘メモ"
     avatar = "img/avatar.png"
 
 [Params]
