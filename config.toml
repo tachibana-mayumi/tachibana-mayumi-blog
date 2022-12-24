@@ -24,7 +24,6 @@ paginate = 20
     readmore = true
     authorbox = true
     post_meta = ["date", "categories"]
-    twitter_cards = true
 
 # ページのテーマカラー
 [Params.style.vars]
