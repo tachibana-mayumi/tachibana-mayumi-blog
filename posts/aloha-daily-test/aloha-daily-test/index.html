@@ -3,7 +3,7 @@
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta http-equiv=x-ua-compatible content="IE=edge">
-<title>daily - 立花真由美の技術メモ</title>
+<title>alohaな日記：テストページとして書いてみる - 立花真由美の技術メモ</title>
 <script>(function(a,b){a[b]=a[b].replace("no-js","js")})(document.documentElement,"className")</script>
 <meta name=description content>
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
@@ -12,7 +12,6 @@
 <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
 <link rel=stylesheet href=/tachibana-mayumi-blog/css/style.css>
 <link rel=stylesheet href=/tachibana-mayumi-blog/css/custom.css>
-<link rel=alternate type=application/rss+xml href=/tachibana-mayumi-blog/categories/daily/index.xml title=立花真由美の技術メモ>
 <link rel="shortcut icon" href=/tachibana-mayumi-blog/favicon.ico>
 </head>
 <body class=body>
@@ -31,7 +30,7 @@
 <span class=menu__btn-title tabindex=-1>メニュー</span>
 </button>
 <ul class=menu__list>
-<li class=menu__item>
+<li class="menu__item menu__item--active">
 <a class=menu__link href=/tachibana-mayumi-blog/posts/aloha-daily-test/aloha-daily-test/>
 <span class=menu__text>alohaな日記：テストページとして書いてみる</span>
 </a>
@@ -47,46 +46,68 @@
 </header>
 <div class="wrapper flex">
 <div class=primary>
-<main class="main list" role=main>
-<header class=main__header>
-<h1 class=main__title>daily</h1>
-</header><article class="list__item post">
-<header class=list__header>
-<h2 class="list__title post__title">
-<a href=/tachibana-mayumi-blog/posts/aloha-daily-test/aloha-daily-test/ rel=bookmark>
-alohaな日記：テストページとして書いてみる
-</a>
-</h2>
-<div class="list__meta meta">
+<main class=main role=main>
+<article class=post>
+<header class=post__header>
+<h1 class=post__title>alohaな日記：テストページとして書いてみる</h1>
+<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
 <svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2022-12-24T00:00:00Z>December 24, 2022</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class=meta__text><a class=meta__link href=/tachibana-mayumi-blog/categories/daily/ rel=category>daily</a>
 </span>
 </div></div>
-</header>
-<div class="content list__excerpt post__content clearfix">
-##alohaな日記：テスト 立花真由美といいます。 もともとはデザイナーだったけど、最近色々あって技術系に配置転換。 会社で他の人も使うというこ
+</header><div class="content post__content clearfix">
+<p>##alohaな日記：テスト</p>
+<p>立花真由美といいます。
+もともとはデザイナーだったけど、最近色々あって技術系に配置転換。
+会社で他の人も使うということでGitHubにも触ることになった。</p>
+<p>とは言っても正直使ったことがないからよくわからない。
+何をしたらいいのかな。
+コードとかを格納できるし、このブログにもコードを乗せることができるかもしれない。
+ただ、まずは文章を作成するという意味で日記を書いてみよう。</p>
+<p>###alohaな雰囲気のハワイに行きたい、寒いから
+最近とっても寒い、寒いのにデスクワークを続けていると身体が冷えてしまう。
+そんなときに憧れるのが南国の世界、特にハワイに行きたい！
+alohaと言いながらのんびりとすごす夏、本当に非日常の雰囲気を味わうことができた。</p>
+<p>なのに今は・・・
+寒い部屋で脚が冷えながらわけも分からずコードを書いたりSE的なことをしている。
+alohaなハワイとは大違い。</p>
+<p>ハワイでなくても、沖縄でもいい、というか今は沖縄がいい！
+せっかくリモートワークできるのだから、南国でのんびりとしながら仕事をしていきたいな。
+そんなことを言い続けたらグチになってしまう。
+もうやめよう。</p>
+<p>とにかく、このブログではGitHubの使い方になれるという意味でもコードに関するものを挙げていこう。
+まずは過去の課題からからな。</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c data-lang=c><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;stdio.h&gt;</span><span style=color:#75715e>
+</span><span style=color:#75715e></span>
+<span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>() {
+  printf(<span style=color:#e6db74>&#34;Hello, World!</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>);
+  <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0</span>;
+}
+</code></pre></div><figure><img src=./image.jpeg alt=モード width=75%>
+</figure>
 </div>
-<div class="list__footer clearfix">
-<a class="list__footer-readmore btn" href=/tachibana-mayumi-blog/posts/aloha-daily-test/aloha-daily-test/>続きを読む…</a>
+<footer class=post__footer>
+<div class="post__tags tags clearfix"><svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5.0 11V3C0 1.5.8.8.8.8S1.5.0 3 0h8c1.5.0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 100-6 3 3 0 000 6z"/></svg>
+<ul class=tags__list>
+<li class=tags__item>
+<a class="tags__link btn" href=/tachibana-mayumi-blog/tags/daily/ rel=tag>daily</a>
+</li>
+</ul>
 </div>
-</article><article class="list__item post">
-<header class=list__header>
-<h2 class="list__title post__title">
-<a href=/tachibana-mayumi-blog/posts/sample/ rel=bookmark>
-テストページ
-</a>
-</h2>
-<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2022-12-24T00:00:00Z>December 24, 2022</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class=meta__text><a class=meta__link href=/tachibana-mayumi-blog/categories/daily/ rel=category>daily</a>
-</span>
-</div></div>
-</header>
-<div class="content list__excerpt post__content clearfix">
-HUGOの使い方 HUGOのサンプル h1 h2 h3 h4 h5 h6 a b c d e f $ bash BOLD italic 44GG44KT44GT #include &lt;stdio.h> int main() { printf("Hello, World!\n"); return 0; }
-</div>
+</footer>
 </article>
 </main>
+<div class="authorbox clearfix">
+<figure class=authorbox__avatar>
+<img alt="立花真由美 avatar" src=/tachibana-mayumi-blog/img/avatar.png class=avatar height=90 width=90>
+</figure>
+<div class=authorbox__header>
+<span class=authorbox__name>立花真由美について</span>
+</div>
+<div class=authorbox__description>
+デザイナーから技術系に仕事が変わってしまったOLの奮闘メモ
+</div>
+</div>
 </div>
 <aside class=sidebar><div class="widget-search widget">
 <form class=widget-search__form role=search method=get action=https://google.com/search>
