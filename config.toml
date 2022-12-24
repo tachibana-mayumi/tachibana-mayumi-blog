@@ -6,7 +6,6 @@ DefaultContentLanguage = "ja"
 HasCJKLanguage = true
 enableRobotsTXT = true
 
-<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-BX9NK5GMHV"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
