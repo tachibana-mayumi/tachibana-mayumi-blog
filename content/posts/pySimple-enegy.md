@@ -1,6 +1,6 @@
 ---
 title: "E:株式会社エナジーというプログラムをpySimpleGUIで書いてみる"
-date: 2022-12-24
+date: 2022-12-25
 categories: ["python"]
 tags: ["python"]
 menu: main
