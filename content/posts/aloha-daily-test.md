@@ -1,6 +1,6 @@
 ---
 title: "alohaな日記：テストページとして書いてみる"
-date: 2022-12-24
+date: 2022-12-23
 categories: ["daily"]
 tags: ["daily"]
 menu: main
