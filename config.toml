@@ -7,7 +7,7 @@ HasCJKLanguage = true
 enableRobotsTXT = true
 
 # ブログのタイトル
-title = "立花真由美の技術メモ"
+title = "株式会社エナジー〇〇で働く立花真由美の技術メモ：alohaなハワイに逃げ出したい"
 
 theme = "mainroad"
 paginate = 20
@@ -15,12 +15,12 @@ paginate = 20
 # 自己紹介
 [Author]
     name = "立花真由美"
-    bio = "デザイナーから技術系に仕事が変わってしまったOLの奮闘メモ"
+    bio = "株式会社エナジー〇〇で働く元文系のSEの奮闘メモ。alohaなハワイへ逃げ出して、すべての仕事を投げてしまいたい午後"
     avatar = "img/avatar.png"
 
 [Params]
     customCSS = ["css/custom.css"]
-    copyright = "Author"
+    copyright = "立花真由美の技術メモ"
     readmore = true
     authorbox = true
     post_meta = ["date", "categories"]
