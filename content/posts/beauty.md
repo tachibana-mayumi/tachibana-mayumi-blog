@@ -1,6 +1,6 @@
 ---
 title: "化粧品選びは大変：美容は面倒だけどちゃんとしたい"
-date: 2023-08-19
+date: 2023-08-18
 categories: ["daily"]
 tags: ["daily"]
 menu: main
